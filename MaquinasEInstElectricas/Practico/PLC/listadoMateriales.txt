@@ -1,0 +1,24 @@
+Entrada del PLC
+   - 3 Borneras de 3 bocas (8 entradas y un GND)
+   - 8 optoacopladores PC817
+   - 8 resistencias de 1K
+   - 8 switches de 2 posiciones
+   - 8 capacitores 100nF
+   - 8 resistencias 10K
+   - 8 LEDs
+   - 8 resistencias 300 (limitadoras)
+
+Etapa de control
+   - Arduino nano
+   - Tira de pines hembra (para poner y sacar el Arduino fácilmente)
+   - Regulador LM7805
+   - Capacitor 10uF/50V
+   - Capacitor 0.1uF
+   - Bornera de dos canales
+   - pin DC de entrada
+
+Salida del PLC
+   - Bornera de 2 canales (salida de 5V)
+   - 1 Tira de pines macho
+   - Módulo de 8 realays (con optoacopladores)
+   - Placa virgen de 20x20 [cm]
